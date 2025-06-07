@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Order App</title>
+</head>
+<body>
+
+  <h1><mark>Food Order Lists</mark></h1>
+
+  <form action="./resonse.html" method="get">
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Select</th>
+          <th>Item</th>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="checkbox" name="item[]" value="pizza"></td>
+          <td>Pizza</td>
+          <td>Margherita Pizza & Pizza Marinara</td>
+          <td>$10.00</td>
+          <td><input type="number" name="qty_pizza" min="1" value="1"></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="item[]" value="pizza"></td>
+          <td>Pizza</td>
+          <td>Pizza Quattro Formaggi&Pizza Quattro Stagioni</td>
+          <td>$10.00</td>
+          <td><input type="number" name="qty_pizza" min="1" value="1"></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="item[]" value="Veg Items"></td>
+          <td>Veg items</td>
+          <td>Paneer Tikka&Aloo Gobi&Dal Makhani</td>
+          <td>$10.00</td>
+          <td><input type="number" name="qty_pizza" min="1" value="1"></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="item[]" value="vegitems"></td>
+          <td>Veg items</td>
+          <td>Palak Paneer&Chana Masala&Dosa with Sambar</td>
+          <td>$10.00</td>
+          <td><input type="number" name="qty_pizza" min="1" value="1"></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="item[]" value="vegitems"></td>
+          <td>Veg items</td>
+          <td>Vegetable Biryani &Rajma Chawal</td>
+          <td>$10.00</td>
+          <td><input type="number" name="qty_pizza" min="1" value="1"></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="item[]" value="nonveg"></td>
+          <td>Non Veg</td>
+          <td>Butter Chicken&Chicken Biryani</td>
+          <td>$10.00</td>
+          <td><input type="number" name="qty_pizza" min="1" value="1"></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="item[]" value="nonveg"></td>
+          <td>Non Veg</td>
+          <td>Tandoori Chicken &Rogan Josh</td>
+          <td>$7.00</td>
+          <td><input type="number" name="qty_burger" min="1" value="1"></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="item[]" value="pasta"></td>
+          <td>Non Veg</td>
+          <td>Fish Curry </td>
+          <td>$8.00</td>
+          <td><input type="number" name="qty_pasta" min="1" value="1"></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="item[]" value="dessert"></td>
+          <td>Non Veg</td>
+          <td>Paya Soup& Chicken Tikka Masala&Poora Haah</td>
+          <td>$5.00</td>
+          <td><input type="number" name="qty_dessert" min="1" value="1"></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="item[]" value="drink"></td>
+          <td>Non Veg</td>
+          <td>Mutton Rogan Jos&Haleem</td>
+          <td>$2.00</td>
+          <td><input type="number" name="qty_drink" min="1" value="1"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+    <center><input type="submit" value="Place Order"></center> <br><br><br><br><br><br>
+  </form>
+
+</body>
+</html>
